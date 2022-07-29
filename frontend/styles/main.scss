@@ -4,6 +4,7 @@ body {
     background-color: #E4E6EB;
 }
 
+// Navbar
 .navbar-brand {
     img {
         max-height: 40px;
@@ -12,6 +13,7 @@ body {
 
 .navbar-light {
     .navbar-nav {
+        margin-right: 50px;
         .nav-link {
             color: #071C4D;
         }
@@ -40,4 +42,56 @@ body {
         border-color: #122757;
         color: #fff;
     }
+}
+
+// Header
+header {
+    padding-top: 180px;
+    padding-bottom: 165px;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    margin-top: -70px;
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        color: #fff;
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    p {
+        font-family: 'Assistant', sans-serif;
+        color: #fff;
+        font-size: 22px;
+    }
+
+    .btn-get-started {
+        background-color: #FF9E53;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+
+// Statistik
+.section-stats {
+    margin-top: -50px;
+
+    .stats-detail {
+        background-color: #FFFFFF;
+        padding-top: 15px;
+        padding-left: 84px;
+        
+        h2 {
+            font-size: 30px;
+            margin-bottom: 0;
+            font-weight: 700;
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 20px;
+        }
+    }
+
 }
