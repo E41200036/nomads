@@ -1,7 +1,8 @@
 body {
     font-family: 'Assistant', sans-serif;
     color: #071C4D;
-    background-color: #E4E6EB;
+    background-color: #fff;
+    overflow-x: hidden;
 }
 
 // Navbar
@@ -14,35 +15,38 @@ body {
 .navbar-light {
     .navbar-nav {
         margin-right: 50px;
+
         .nav-link {
             color: #071C4D;
         }
+
         .nav-link.active {
             color: #071C4D;
             font-weight: 600;
         }
     }
-}
 
-.btn-navbar-right {
-    margin-top: -10px !important;
-    margin-bottom: -8px !important; 
-    margin-right: -18px !important;
-    height: 70px;
-    border-radius: 0; 
-}
+    .btn-navbar-right {
+        margin-top: -10px !important;
+        margin-bottom: -8px !important;
+        margin-right: -18px !important;
+        height: 70px;
+        border-radius: 0;
+    }
 
-.btn-login {
-    background-color: #071C4D;
-    border-color: #071C4D;
-    color: #fff;
-
-    &:hover {
-        background-color: #273a65;
-        border-color: #122757;
+    .btn-login {
+        background-color: #071C4D;
+        border-color: #071C4D;
         color: #fff;
+
+        &:hover {
+            background-color: #273a65;
+            border-color: #122757;
+            color: #fff;
+        }
     }
 }
+
 
 // Header
 header {
@@ -81,7 +85,7 @@ header {
         background-color: #FFFFFF;
         padding-top: 15px;
         padding-left: 84px;
-        
+
         h2 {
             font-size: 30px;
             margin-bottom: 0;
@@ -94,4 +98,210 @@ header {
         }
     }
 
+}
+
+// Wisata
+.section-wisata {
+    background-color: #071C4D;
+    margin-top: -50px;
+    padding-top: 150px;
+    height: 590px;
+
+    h1 {
+        font-family: 'Playfair Display';
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    p {
+        font-family: 'Assistant', sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .wisata-list {
+        margin-top: 70px;
+
+        .card {
+            border-radius: 0;
+            box-shadow: none;
+            border: none;
+            // height: 380px;
+
+            img {
+                border-radius: 0;
+            }
+
+            .card-img-overlay {
+                // height: 28.2pc;
+                padding-top: 30px;
+                padding-bottom: 30px;
+
+                h3,
+                h5 {
+                    font-family: 'Assistant';
+                }
+
+                h3 {
+                    font-weight: 600;
+                    font-size: 26px;
+                }
+
+                h5 {
+                    font-size: 18px;
+                }
+
+                .btn-detail-wisata {
+                    background-color: #FF9E53;
+                    color: white;
+                    font-size: 20px;
+                    font-weight: 600;
+                    padding: 10px 34px;
+
+                    &:hover {
+                        border-color: #FF9E53;
+                        background-color: #eca46d;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Network
+.section-network {
+    padding-top: 273px;
+    margin-bottom: 100px;
+
+    .network-slogan {
+        h1 {
+            font-family: 'Playfair Display';
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        p {
+            font-family: 'Assistant', sans-serif;
+            font-size: 18px;
+            font-weight: 300;
+        }
+    }
+}
+
+// Testimonial
+.section-testimonial {
+    background-color: #FDFDFF;
+    padding-top: 40px;
+    margin-bottom: 100px;
+
+    .testimonial-slogan {
+        h1 {
+            font-family: 'Playfair Display';
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        p {
+            font-family: 'Assistant', sans-serif;
+            font-size: 18px;
+            font-weight: 300;
+        }
+    }
+
+    .testimonial-user {
+        margin-top: 70px;
+        margin-bottom: 70px;
+
+        .card {
+            border-radius: 11px;
+            border-color: #E3E3E3;
+
+            .card-body {
+                padding: 50px 29px;
+
+                img {
+                    width: 120px;
+                    height: 120px;
+                    object-fit: fill;
+                }
+
+                h3 {
+                    font-size: 22px;
+                    font-weight: 600;
+                }
+
+                p {
+                    font-size: 26px;
+                    font-weight: 300;
+                    margin: 0 29px;
+                    font-weight: lighter;
+                }
+            }
+
+            .footer {
+                font-size: 22px;
+                padding: 15px 0;
+                color: #6E6E6E;
+            }
+        }
+    }
+
+    .btn-help {
+        background-color: #F2F2F2;
+        color: #C3C3C3;
+        font-size: 20px;
+        font-weight: lighter;
+        padding: 10px 38px;
+
+        &:hover {
+            background-color: #d8d8d8;
+            border-color: #d8d8d8;
+            color: rgb(136, 136, 136);
+        }
+    }
+
+    .btn-get-started {
+        background-color: #FF9E53;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 10px 34px;
+
+        &:hover {
+            border-color: #FF9E53;
+            background-color: #eca46d;
+        }
+    }
+}
+
+// Footer
+footer {
+    padding-top: 50px;
+    border: 1px solid #E3E3E3;
+
+    h2 {
+        font-size: 22px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    ul {
+        padding-left: 0px;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+
+        li {
+            margin-bottom: 8px;
+            font-size: 18px;
+        }
+    }
+
+    p {
+        padding-top: 30px;
+        padding-bottom: 10px;
+        font-weight: lighter;
+        font-size: 18px;
+        border-top: 1px solid #E3E3E3;
+    }
 }

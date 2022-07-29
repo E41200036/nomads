@@ -1,7 +1,8 @@
 body {
   font-family: "Assistant", sans-serif;
   color: #071C4D;
-  background-color: #E4E6EB;
+  background-color: #fff;
+  overflow-x: hidden;
 }
 
 .navbar-brand img {
@@ -18,21 +19,19 @@ body {
   color: #071C4D;
   font-weight: 600;
 }
-
-.btn-navbar-right {
+.navbar-light .btn-navbar-right {
   margin-top: -10px !important;
   margin-bottom: -8px !important;
   margin-right: -18px !important;
   height: 70px;
   border-radius: 0;
 }
-
-.btn-login {
+.navbar-light .btn-login {
   background-color: #071C4D;
   border-color: #071C4D;
   color: #fff;
 }
-.btn-login:hover {
+.navbar-light .btn-login:hover {
   background-color: #273a65;
   border-color: #122757;
   color: #fff;
@@ -79,4 +78,171 @@ header .btn-get-started {
 .section-stats .stats-detail p {
   font-weight: 300;
   font-size: 20px;
+}
+
+.section-wisata {
+  background-color: #071C4D;
+  margin-top: -50px;
+  padding-top: 150px;
+  height: 590px;
+}
+.section-wisata h1 {
+  font-family: "Playfair Display";
+  font-size: 40px;
+  font-weight: bold;
+}
+.section-wisata p {
+  font-family: "Assistant", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+.section-wisata .wisata-list {
+  margin-top: 70px;
+}
+.section-wisata .wisata-list .card {
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+}
+.section-wisata .wisata-list .card img {
+  border-radius: 0;
+}
+.section-wisata .wisata-list .card .card-img-overlay {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.section-wisata .wisata-list .card .card-img-overlay h3,
+.section-wisata .wisata-list .card .card-img-overlay h5 {
+  font-family: "Assistant";
+}
+.section-wisata .wisata-list .card .card-img-overlay h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+.section-wisata .wisata-list .card .card-img-overlay h5 {
+  font-size: 18px;
+}
+.section-wisata .wisata-list .card .card-img-overlay .btn-detail-wisata {
+  background-color: #FF9E53;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 34px;
+}
+.section-wisata .wisata-list .card .card-img-overlay .btn-detail-wisata:hover {
+  border-color: #FF9E53;
+  background-color: #eca46d;
+}
+
+.section-network {
+  padding-top: 273px;
+  margin-bottom: 100px;
+}
+.section-network .network-slogan h1 {
+  font-family: "Playfair Display";
+  font-size: 40px;
+  font-weight: bold;
+}
+.section-network .network-slogan p {
+  font-family: "Assistant", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.section-testimonial {
+  background-color: #FDFDFF;
+  padding-top: 40px;
+  margin-bottom: 100px;
+}
+.section-testimonial .testimonial-slogan h1 {
+  font-family: "Playfair Display";
+  font-size: 40px;
+  font-weight: bold;
+}
+.section-testimonial .testimonial-slogan p {
+  font-family: "Assistant", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+.section-testimonial .testimonial-user {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.section-testimonial .testimonial-user .card {
+  border-radius: 11px;
+  border-color: #E3E3E3;
+}
+.section-testimonial .testimonial-user .card .card-body {
+  padding: 50px 29px;
+}
+.section-testimonial .testimonial-user .card .card-body img {
+  width: 120px;
+  height: 120px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.section-testimonial .testimonial-user .card .card-body h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.section-testimonial .testimonial-user .card .card-body p {
+  font-size: 26px;
+  font-weight: 300;
+  margin: 0 29px;
+  font-weight: lighter;
+}
+.section-testimonial .testimonial-user .card .footer {
+  font-size: 22px;
+  padding: 15px 0;
+  color: #6E6E6E;
+}
+.section-testimonial .btn-help {
+  background-color: #F2F2F2;
+  color: #C3C3C3;
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 10px 38px;
+}
+.section-testimonial .btn-help:hover {
+  background-color: #d8d8d8;
+  border-color: #d8d8d8;
+  color: rgb(136, 136, 136);
+}
+.section-testimonial .btn-get-started {
+  background-color: #FF9E53;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 34px;
+}
+.section-testimonial .btn-get-started:hover {
+  border-color: #FF9E53;
+  background-color: #eca46d;
+}
+
+footer {
+  padding-top: 50px;
+  border: 1px solid #E3E3E3;
+}
+footer h2 {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+footer ul {
+  padding-left: 0px;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+footer ul li {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+footer p {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-weight: lighter;
+  font-size: 18px;
+  border-top: 1px solid #E3E3E3;
 }/*# sourceMappingURL=main.css.map */
