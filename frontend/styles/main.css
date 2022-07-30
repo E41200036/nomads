@@ -223,6 +223,7 @@ header .btn-get-started {
 footer {
   padding-top: 50px;
   border: 1px solid #E3E3E3;
+  margin-top: 100px;
 }
 footer h2 {
   font-size: 22px;
@@ -245,4 +246,130 @@ footer p {
   font-weight: lighter;
   font-size: 18px;
   border-top: 1px solid #E3E3E3;
+}
+
+.section-detail {
+  min-height: 310px;
+  background-color: #E4E6EB;
+  margin-top: -70px;
+  padding-top: 110px;
+}
+.section-detail .breadcrumb-item {
+  font-size: 20px;
+}
+.section-detail .breadcrumb-item.active {
+  font-weight: 600;
+  color: #071C4D;
+}
+
+main {
+  margin-bottom: 100px;
+}
+main .section-detail-content {
+  margin-top: -130px;
+}
+main .section-detail-content .card-detail {
+  background-color: #fff;
+  border-radius: 11px;
+  padding: 30px;
+}
+main .section-detail-content .card-detail h1 {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
+}
+main .section-detail-content .card-detail .country {
+  font-size: 18px;
+  color: #B1B1B1;
+  font-weight: lighter;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+main .section-detail-content .card-detail .img-header {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 24px;
+}
+main .section-detail-content .card-detail .more-pic img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .section-detail-content .detail-wisata h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+main .section-detail-content .detail-wisata p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #B1B1B1;
+}
+main .section-detail-content .category img {
+  width: 45px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .section-detail-content .category h5 {
+  margin-bottom: 0;
+  font-weight: 300;
+}
+main .section-detail-content .category p {
+  font-weight: 300;
+  color: #B1B1B1;
+  margin: 0;
+}
+main .section-detail-content .category .border-end {
+  border-width: 1px !important;
+}
+main .section-detail-content .card {
+  padding: 0;
+}
+main .section-detail-content .detail-right {
+  padding: 0;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+main .section-detail-content .detail-right .detail {
+  padding: 30px;
+}
+main .section-detail-content .detail-right .detail h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+main .section-detail-content .detail-right .detail .more {
+  width: 40px;
+  height: 40px;
+  background-color: #EDF2FF;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 28px;
+}
+main .section-detail-content .detail-right .detail .more span {
+  font-weight: 600;
+  color: #071C4D;
+}
+main .section-detail-content .detail-right .detail .text-muted {
+  color: #B1B1B1 !important;
+}
+main .section-detail-content .detail-right .detail span {
+  font-size: 18px;
+  font-weight: 300;
+}
+main .section-detail-content .detail-right .btn-join {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: #FF9E53;
+  margin: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }/*# sourceMappingURL=main.css.map */
