@@ -5,6 +5,10 @@ body {
     overflow-x: hidden;
 }
 
+.text-primary {
+    color: #071C4D !important;
+}
+
 // Navbar
 .navbar-brand {
     img {
@@ -333,6 +337,7 @@ main {
         margin-top: -130px;
 
         .card-detail {
+            height: fit-content;
             background-color: #fff;
             border-radius: 11px;
             padding: 30px;
@@ -364,6 +369,10 @@ main {
                     height: auto;
                     object-fit: cover;
                 }
+            }
+
+            h2 {
+                font-size: 20px;
             }
         }
 
@@ -407,16 +416,19 @@ main {
         .card {
             padding: 0;
         }
+
         .detail-right {
             padding: 0;
             height: fit-content;
+
             .detail {
                 padding: 30px;
+
                 h2 {
                     font-size: 20px;
                     font-weight: 600;
                 }
-    
+
                 .more {
                     width: 40px;
                     height: 40px;
@@ -425,17 +437,17 @@ main {
                     display: flex;
                     align-items: center;
                     margin-left: 28px;
-                    
+
                     span {
                         font-weight: 600;
                         color: #071C4D;
                     }
                 }
-    
+
                 .text-muted {
                     color: #B1B1B1 !important;
                 }
-    
+
                 span {
                     font-size: 18px;
                     font-weight: 300;
@@ -452,6 +464,92 @@ main {
                 margin: 0;
                 border-top-left-radius: 0;
                 border-top-right-radius: 0;
+            }
+        }
+
+        .attendee {
+            margin-top: 29px;
+
+            table {
+                margin-bottom: 50px;
+
+                td {
+                    font-size: 18px;
+                    font-family: 'Assistant';
+                    font-weight: 300;
+                    color: #071C4D;
+                }
+
+                tr {
+                    margin-top: 20px;
+                }
+            }
+        }
+
+        .note {
+            h3 {
+                font-size: 14px;
+                font-weight: 600;
+                margin: 0;
+                margin-top: 16px;
+            }
+
+            p {
+                font-size: 14px;
+                font-weight: lighter;
+            }
+        }
+    }
+
+    .checkout-information {
+        height: fit-content;
+        border: 1px solid #6E6E6E;
+
+        .detail-information {
+            span {
+                font-size: 18px !important;
+                font-weight: lighter;
+            }
+
+            .payment-instruction {
+                h2 {
+                    font-size: 20px !important;
+                    font-weight: 600;
+                    margin: 0;
+                }
+
+                p {
+                    font-size: 14px !important;
+                    font-weight: lighter;
+                }
+            }
+
+            .admin-cards {
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    padding-left: 12px;
+
+                    li {
+                        font-size: 16px;
+                    }
+                }
+                img {
+                    margin: 0;
+                }
+            }
+        }
+
+        .btn-payment {
+            background-color: #FF9E53;
+            color: white;
+            font-weight: 600;
+            font-size: 20px;
+            border-radius: 0;
+
+            &:hover {
+                background-color: #eca46d;
+                border-color: #eca46d;
             }
         }
     }

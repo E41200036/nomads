@@ -5,6 +5,10 @@ body {
   overflow-x: hidden;
 }
 
+.text-primary {
+  color: #071C4D !important;
+}
+
 .navbar-brand img {
   max-height: 40px;
 }
@@ -269,6 +273,9 @@ main .section-detail-content {
   margin-top: -130px;
 }
 main .section-detail-content .card-detail {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   background-color: #fff;
   border-radius: 11px;
   padding: 30px;
@@ -297,6 +304,9 @@ main .section-detail-content .card-detail .more-pic img {
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
+}
+main .section-detail-content .card-detail h2 {
+  font-size: 20px;
 }
 main .section-detail-content .detail-wisata h2 {
   font-size: 20px;
@@ -372,4 +382,70 @@ main .section-detail-content .detail-right .btn-join {
   margin: 0;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+main .section-detail-content .attendee {
+  margin-top: 29px;
+}
+main .section-detail-content .attendee table {
+  margin-bottom: 50px;
+}
+main .section-detail-content .attendee table td {
+  font-size: 18px;
+  font-family: "Assistant";
+  font-weight: 300;
+  color: #071C4D;
+}
+main .section-detail-content .attendee table tr {
+  margin-top: 20px;
+}
+main .section-detail-content .note h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 16px;
+}
+main .section-detail-content .note p {
+  font-size: 14px;
+  font-weight: lighter;
+}
+main .checkout-information {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 1px solid #6E6E6E;
+}
+main .checkout-information .detail-information span {
+  font-size: 18px !important;
+  font-weight: lighter;
+}
+main .checkout-information .detail-information .payment-instruction h2 {
+  font-size: 20px !important;
+  font-weight: 600;
+  margin: 0;
+}
+main .checkout-information .detail-information .payment-instruction p {
+  font-size: 14px !important;
+  font-weight: lighter;
+}
+main .checkout-information .detail-information .admin-cards ul {
+  list-style: none;
+  padding: 0;
+  padding-left: 12px;
+}
+main .checkout-information .detail-information .admin-cards ul li {
+  font-size: 16px;
+}
+main .checkout-information .detail-information .admin-cards img {
+  margin: 0;
+}
+main .checkout-information .btn-payment {
+  background-color: #FF9E53;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 0;
+}
+main .checkout-information .btn-payment:hover {
+  background-color: #eca46d;
+  border-color: #eca46d;
 }/*# sourceMappingURL=main.css.map */
