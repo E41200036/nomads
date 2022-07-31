@@ -448,4 +448,24 @@ main .checkout-information .btn-payment {
 main .checkout-information .btn-payment:hover {
   background-color: #eca46d;
   border-color: #eca46d;
+}
+main .section-success-checkout {
+  margin-top: 100px;
+  margin-bottom: 127px;
+}
+main .section-success-checkout h1 {
+  font-size: 26px;
+  font-weight: 600;
+}
+main .section-success-checkout p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #B1B1B1;
+}
+main .section-success-checkout .btn-home {
+  margin-top: 51px;
+  background-color: #071C4D;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
 }/*# sourceMappingURL=main.css.map */

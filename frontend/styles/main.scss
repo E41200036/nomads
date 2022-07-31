@@ -553,4 +553,28 @@ main {
             }
         }
     }
+
+    .section-success-checkout {
+        margin-top: 100px;
+        margin-bottom: 127px;
+
+        h1 {
+            font-size: 26px;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 300;
+            color: #B1B1B1;
+        }
+
+        .btn-home {
+            margin-top: 51px;
+            background-color: #071C4D;
+            color: white;
+            font-weight: 600;
+            font-size: 20px;
+        }
+    }
 }
